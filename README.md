@@ -1,8 +1,30 @@
-# React + Vite
+This template is setup using:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    npm create vite@latest react-game-app
 
-Currently, two official plugins are available:
+Framework: React
+Variant: JavaScript
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The following files are removed:
+ - App.css
+ - main.css
+ - Assets folder
+ - public/vite.svg
+
+ The following files are modified:
+ - this README.md
+ - index.html
+ - App.jsx
+ - main.jsx
+ - vite.config.js
+
+The following files are added:
+- public/card1.jpg
+- public/card2.jpg
+- public/cat.jpg
+- public/elephant.jpg
+- public/giraffe.jpg
+- public/monkey.jpg
+- public/pig.jpg
+- public/rabbit.jpg
+- public/turtle.jpg
